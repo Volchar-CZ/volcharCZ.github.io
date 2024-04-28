@@ -1,0 +1,51 @@
+/*
+ ChatGPT mi poradilo :root, tak jsem si to vyzkoušel
+    Vše stylizované do stylu Vašich prezentací
+*/
+:root {
+   --hl_barva: #007bff;
+   --hl_barva_mys: #0056b3;
+   --pozadi: #f8f9fa;
+   --text: white;
+   --nav_pozadi: #008211;
+   --nav-text-hover-bg-color: #ddd;
+   --shadow-color: rgba(0, 0, 0, 0.1);
+
+   --nav-padding: 14px 16px;
+   --btn-padding: 10px 20px;
+   --article-margin-bottom: 20px;
+   --article-padding: 20px;
+   --img-max-width: 600px;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   width: 800px;
+}
+
+p {
+   color: var(--text);
+   font-size: 1.5em;
+   margin-bottom: 15px;
+}
+
+.itemsInArticle {
+   color: var(--text);
+   font-size: 1.5em;
+   margin-bottom: 15px;
+}
+
+article {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--nav_pozadi);
+   margin: 10px;
+   padding: 20px;
+   border-radius: 10px;
+   width: 800px;
+}
