@@ -1,5 +1,5 @@
 title   = "Volchar"
-baseURL = "/"
+baseURL = "https://www.volchar.dev/"
 languageCode = "cs-CZ"
 theme = "hello-friend-ng"
 
@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   dateformShort   = "02.1"
   dateformNum     = "02.01.2006"
   dateformNumTime = "02.01.2006 15:04"
-  relativeURLs = false
+  relativeURLs = true
 
   # Metadata mostly used in document's head
   # 
