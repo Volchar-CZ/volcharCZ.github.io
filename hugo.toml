@@ -250,8 +250,8 @@ disableHugoGeneratorInject = false
 
 
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
-disableDefaultLanguageRedirect = false
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = true
 [params.meta]
 favicon = false
 
@@ -264,15 +264,16 @@ favicon = false
   [languages.en.params]
     homeSubtitle  = "“Mankind invented thse atomic bomb, but no mouse would ever construct a mousetrap.” - Albert Einstein  "
   [language.en.params.logo]
+  logoHomeLink = "/en"
 
     [[languages.en.menu.main]]
       name = "About me"
-      url = "/about/"
+      url = "about/"
       weight = 8
 
     [[languages.en.menu.main]]
       name = "Projects"
-      url = "/projects/"
+      url = "projects/"
       weight = 9
 
 #    [[languages.en.menu.main]]
@@ -298,16 +299,17 @@ favicon = false
   [languages.cs.params]
     homeSubtitle = "“Lidstvo vynalezlo atomovou bombu, ale žádná myš by nikdy nesestrojila past na myši.” - Albert Einstein  "
   [language.cs.params.logo]
+  logoHomeLink = "/cs"
 
     [[languages.cs.menu.main]]
       identifier = "about"
       name = "O mně"
-      url = "/about/"
+      url = "about/"
       weight = 8
 
     [[languages.cs.menu.main]]
       name = "Projekty"
-      url = "/projects/"
+      url = "projects/"
       weight = 9
 
 #    [[languages.cs.menu.main]]
