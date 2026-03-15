@@ -1,5 +1,5 @@
 title   = "Volchar"
-baseURL = "https://volchar-cz.github.io/volcharCZ.github.io/"
+baseURL = "/"
 languageCode = "cs-CZ"
 theme = "hello-friend-ng"
 
@@ -17,7 +17,7 @@ publishDir   = "public"
 buildDrafts  = true
 buildFuture  = false
 buildExpired = false
-canonifyURLs = true
+canonifyURLs = false
 
 enableRobotsTXT = true
 enableGitInfo   = false
