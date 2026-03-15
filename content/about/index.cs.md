@@ -19,7 +19,7 @@ Zoomer/INTJ
 - `C#`, `zájem o C++/Rust`, `Bash` – programování a lepení programů
 - `3D modeling` – TinkerCAD / FreeCAD / Blender | Technické i kreativní
 - `Základy síťařiny` – static IP, trošku IOS (cisco packet tracer)
-- `Účast v celo republikové soutěži FET` v ČVUT, a to FET ani není můj obor, takže i když jsem nevyhrál, tak je ta účast je víc než dost. 
+- `Účast v celorepublikové soutěži FET` v ČVUT, a to FET ani není můj obor, takže i když jsem nevyhrál, tak je ta účast je víc než dost. 
 
 Junior ve všem a rád se přiučím něčeho nového! 
 
