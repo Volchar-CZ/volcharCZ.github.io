@@ -251,7 +251,7 @@ disableHugoGeneratorInject = false
 
 defaultContentLanguage = 'cs'
 defaultContentLanguageInSubdir = false
-disableDefaultLanguageRedirect = true
+disableDefaultLanguageRedirect = false
 [params.meta]
 favicon = false
 
