@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   dateformShort   = "02.1"
   dateformNum     = "02.01.2006"
   dateformNumTime = "02.01.2006 15:04"
-relativeURLs = true
+  relativeURLs = false
 
   # Metadata mostly used in document's head
   # 
