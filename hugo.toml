@@ -263,6 +263,7 @@ favicon = false
 
   [languages.en.params]
     homeSubtitle  = "“Mankind invented thse atomic bomb, but no mouse would ever construct a mousetrap.” - Albert Einstein  "
+
   [language.en.params.logo]
   logoHomeLink = "/en"
 
@@ -298,6 +299,12 @@ favicon = false
 
   [languages.cs.params]
     homeSubtitle = "“Lidstvo vynalezlo atomovou bombu, ale žádná myš by nikdy nesestrojila past na myši.” - Albert Einstein  "
+
+  [languages.cs.params.portrait]
+     path     = "../favicon-96x96.png"
+     alt      = "Logo"
+     maxWidth = "50px"
+
   [language.cs.params.logo]
   logoHomeLink = "/cs"
 
