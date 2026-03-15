@@ -1,0 +1,44 @@
+# Translations for Czech
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Překlady"
+
+[postAvailable]
+other = "Dostupné také v"
+
+
+# 404.html
+#
+[archives]
+other = "Archív"
+
+[home]
+other = "Domov"
+
+[notFound]
+other = "Jejda! Já to ještě vyrobil..."
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "Jednu minutu"
+other = "{{ .Count }} minut"
+
+[tableOfContents]
+other = "Obsah"
+
+[wordCount]
+one   = "Jedno slovo"
+other = "{{ .Count }} slov"
+
+[lastModified]
+other = "Aktualizováno"
+
+# partials/pagination-list.html
+[pagination]
+newerPosts = "nové"
+olderPosts = "staré"
