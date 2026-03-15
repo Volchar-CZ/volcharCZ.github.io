@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/cs/tags/3d-printing/</loc>
+    <loc>//localhost:1313/cs/tags/3d-printing/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/3d-printing/"
+                href="//localhost:1313/tags/3d-printing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/tags/3d-printing/"
+                href="//localhost:1313/cs/tags/3d-printing/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cs/projects/lifepo4charger/lifepo4charger/</loc>
+    <loc>//localhost:1313/cs/projects/lifepo4charger/lifepo4charger/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/projects/lifepo4charger/lifepo4charger/"
+                href="//localhost:1313/projects/lifepo4charger/lifepo4charger/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/projects/lifepo4charger/lifepo4charger/"
+                href="//localhost:1313/cs/projects/lifepo4charger/lifepo4charger/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cs/projects/</loc>
+    <loc>//localhost:1313/cs/projects/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/projects/"
+                href="//localhost:1313/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/projects/"
+                href="//localhost:1313/cs/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cs/tags/soldering/</loc>
+    <loc>//localhost:1313/cs/tags/soldering/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/soldering/"
+                href="//localhost:1313/tags/soldering/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/tags/soldering/"
+                href="//localhost:1313/cs/tags/soldering/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cs/tags/</loc>
+    <loc>//localhost:1313/cs/tags/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="//localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/tags/"
+                href="//localhost:1313/cs/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cs/</loc>
+    <loc>//localhost:1313/cs/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="//localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/"
+                href="//localhost:1313/cs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cs/categories/</loc>
+    <loc>//localhost:1313/cs/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="//localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/categories/"
+                href="//localhost:1313/cs/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cs/about/</loc>
+    <loc>//localhost:1313/cs/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="//localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/about/"
+                href="//localhost:1313/cs/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/cs/series/</loc>
+    <loc>//localhost:1313/cs/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="//localhost:1313/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="http://localhost:1313/cs/series/"
+                href="//localhost:1313/cs/series/"
                 />
   </url>
 </urlset>

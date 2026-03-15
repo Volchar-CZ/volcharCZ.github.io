@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   dateformShort   = "02.1"
   dateformNum     = "02.01.2006"
   dateformNumTime = "02.01.2006 15:04"
-
+relativeURLs = true
 
   # Metadata mostly used in document's head
   # 
@@ -249,7 +249,7 @@ disableHugoGeneratorInject = false
 #    url  = "https://www.stackoverflow.com/"
 
 
-defaultContentLanguage = 'cs'
+defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
 [params.meta]
@@ -264,7 +264,7 @@ favicon = false
   [languages.en.params]
     homeSubtitle  = "“Mankind invented thse atomic bomb, but no mouse would ever construct a mousetrap.” - Albert Einstein  "
   [language.en.params.logo]
-  logoHomeLink = "/en"
+  logoHomeLink = "/"
 
     [[languages.en.menu.main]]
       name = "About me"
