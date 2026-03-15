@@ -1,5 +1,5 @@
 title   = "Volchar"
-baseURL = "https://volchar-cz.github.io/volcharCZ.github.io"
+baseURL = "/"
 languageCode = "cs-CZ"
 theme = "hello-friend-ng"
 
