@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.volchar.dev/cs/tags/3d-printing/</loc>
+    <loc>https://volchar-cz.github.io/cs/tags/3d-printing/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/tags/3d-printing/"
+                href="https://volchar-cz.github.io/tags/3d-printing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/tags/3d-printing/"
+                href="https://volchar-cz.github.io/cs/tags/3d-printing/"
                 />
   </url><url>
-    <loc>https://www.volchar.dev/cs/projects/lifepo4charger/lifepo4charger/</loc>
+    <loc>https://volchar-cz.github.io/cs/projects/lifepo4charger/lifepo4charger/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/projects/lifepo4charger/lifepo4charger/"
+                href="https://volchar-cz.github.io/projects/lifepo4charger/lifepo4charger/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/projects/lifepo4charger/lifepo4charger/"
+                href="https://volchar-cz.github.io/cs/projects/lifepo4charger/lifepo4charger/"
                 />
   </url><url>
-    <loc>https://www.volchar.dev/cs/projects/</loc>
+    <loc>https://volchar-cz.github.io/cs/projects/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/projects/"
+                href="https://volchar-cz.github.io/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/projects/"
+                href="https://volchar-cz.github.io/cs/projects/"
                 />
   </url><url>
-    <loc>https://www.volchar.dev/cs/tags/soldering/</loc>
+    <loc>https://volchar-cz.github.io/cs/tags/soldering/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/tags/soldering/"
+                href="https://volchar-cz.github.io/tags/soldering/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/tags/soldering/"
+                href="https://volchar-cz.github.io/cs/tags/soldering/"
                 />
   </url><url>
-    <loc>https://www.volchar.dev/cs/tags/</loc>
+    <loc>https://volchar-cz.github.io/cs/tags/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/tags/"
+                href="https://volchar-cz.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/tags/"
+                href="https://volchar-cz.github.io/cs/tags/"
                 />
   </url><url>
-    <loc>https://www.volchar.dev/cs/</loc>
+    <loc>https://volchar-cz.github.io/cs/</loc>
     <lastmod>2025-08-25T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/"
+                href="https://volchar-cz.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/"
+                href="https://volchar-cz.github.io/cs/"
                 />
   </url><url>
-    <loc>https://www.volchar.dev/cs/categories/</loc>
+    <loc>https://volchar-cz.github.io/cs/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/categories/"
+                href="https://volchar-cz.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/categories/"
+                href="https://volchar-cz.github.io/cs/categories/"
                 />
   </url><url>
-    <loc>https://www.volchar.dev/cs/about/</loc>
+    <loc>https://volchar-cz.github.io/cs/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/about/"
+                href="https://volchar-cz.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/about/"
+                href="https://volchar-cz.github.io/cs/about/"
                 />
   </url><url>
-    <loc>https://www.volchar.dev/cs/series/</loc>
+    <loc>https://volchar-cz.github.io/cs/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.volchar.dev/series/"
+                href="https://volchar-cz.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs"
-                href="https://www.volchar.dev/cs/series/"
+                href="https://volchar-cz.github.io/cs/series/"
                 />
   </url>
 </urlset>

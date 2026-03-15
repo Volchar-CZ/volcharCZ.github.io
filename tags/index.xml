@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Volchar</title>
-    <link>https://www.volchar.dev/tags/</link>
+    <link>https://volchar-cz.github.io/tags/</link>
     <description>Recent content in Tags on Volchar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 25 Aug 2025 11:00:00 +0200</lastBuildDate>
-    <atom:link href="https://www.volchar.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://volchar-cz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D Printing</title>
-      <link>https://www.volchar.dev/tags/3d-printing/</link>
+      <link>https://volchar-cz.github.io/tags/3d-printing/</link>
       <pubDate>Mon, 25 Aug 2025 11:00:00 +0200</pubDate>
-      <guid>https://www.volchar.dev/tags/3d-printing/</guid>
+      <guid>https://volchar-cz.github.io/tags/3d-printing/</guid>
       <description></description>
     </item>
     <item>
       <title>Soldering</title>
-      <link>https://www.volchar.dev/tags/soldering/</link>
+      <link>https://volchar-cz.github.io/tags/soldering/</link>
       <pubDate>Mon, 25 Aug 2025 11:00:00 +0200</pubDate>
-      <guid>https://www.volchar.dev/tags/soldering/</guid>
+      <guid>https://volchar-cz.github.io/tags/soldering/</guid>
       <description></description>
     </item>
     <item>
       <title>Interests</title>
-      <link>https://www.volchar.dev/tags/interests/</link>
+      <link>https://volchar-cz.github.io/tags/interests/</link>
       <pubDate>Mon, 25 Aug 2025 10:00:00 +0200</pubDate>
-      <guid>https://www.volchar.dev/tags/interests/</guid>
+      <guid>https://volchar-cz.github.io/tags/interests/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://www.volchar.dev/tags/linux/</link>
+      <link>https://volchar-cz.github.io/tags/linux/</link>
       <pubDate>Mon, 25 Aug 2025 10:00:00 +0200</pubDate>
-      <guid>https://www.volchar.dev/tags/linux/</guid>
+      <guid>https://volchar-cz.github.io/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Me</title>
-      <link>https://www.volchar.dev/tags/me/</link>
+      <link>https://volchar-cz.github.io/tags/me/</link>
       <pubDate>Mon, 25 Aug 2025 10:00:00 +0200</pubDate>
-      <guid>https://www.volchar.dev/tags/me/</guid>
+      <guid>https://volchar-cz.github.io/tags/me/</guid>
       <description></description>
     </item>
     <item>
       <title>GO</title>
-      <link>https://www.volchar.dev/tags/go/</link>
+      <link>https://volchar-cz.github.io/tags/go/</link>
       <pubDate>Tue, 11 Feb 2025 16:50:40 +0100</pubDate>
-      <guid>https://www.volchar.dev/tags/go/</guid>
+      <guid>https://volchar-cz.github.io/tags/go/</guid>
       <description></description>
     </item>
   </channel>
