@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Interests on Volchar</title>
-    <link>//localhost:1313/tags/interests/</link>
+    <link>http://localhost:1313/tags/interests/</link>
     <description>Recent content in Interests on Volchar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 25 Aug 2025 10:00:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/interests/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/interests/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Github page</title>
-      <link>//localhost:1313/projects/welcometomypage/welcometomypage/</link>
+      <link>http://localhost:1313/projects/welcometomypage/welcometomypage/</link>
       <pubDate>Mon, 25 Aug 2025 10:00:00 +0200</pubDate>
-      <guid>//localhost:1313/projects/welcometomypage/welcometomypage/</guid>
+      <guid>http://localhost:1313/projects/welcometomypage/welcometomypage/</guid>
       <description>&lt;p&gt;For anyone curious about why this website is here, let me explain.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-motivation-a-portfolio-page&#34;&gt;The Motivation: A Portfolio Page&lt;/h3&gt;&#xA;&lt;p&gt;I wanted to create a space to showcase my work. Whether it&amp;rsquo;s through GitHub or hosting on a server, having a portfolio is essential for any programmer aiming to prove their value in the industry. This platform allows me to highlight projects like this one, serving both fellow enthusiasts and potential clients.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-purpose-connecting-with-you&#34;&gt;The Purpose: Connecting with You&lt;/h3&gt;&#xA;&lt;p&gt;This website is designed to connect with those interested in freelance opportunities or looking to hire someone skilled. It&amp;rsquo;s my digital showcase of work, ready for you to explore.&lt;/p&gt;</description>
     </item>
   </channel>
