@@ -34,7 +34,7 @@ Zoomer/INTJ
 - `C#`, `interest in C++/Rust`, `Bash` – coding and app glue
 - `3D modeling` – TinkerCAD / FreeCAD / Blender | Technical and creative wise
 - `Networking` – static IPs, little bit of IOS (cisco)
-- `Participation in the nationwide FET competition` at the Czech Technical University in Prague.. and FET isn't even my field of study, so even though I didn't win, just being there was more than enough. 
+- `Participation in the nationwide FEL competition` at the Czech Technical University in Prague.. and FEL isn't even my field of study, so even though I didn't win, just being there was more than enough. 
 
 Junior in everything and I like to learn new things!
 
