@@ -65,7 +65,7 @@ Teď tam má GTX 1650 pro HW akceleraci pro moji videotéku.
 
 ### Pan Generál
 
-K tomuto "serveru" se váže zajímavý příběh. Je to starý počítač z bazaru za necelých 1 100,- kč [44~€] od někoho z Prahy, konkrétně od někoho, kdo se jmenoval "Petr Pavel". Bylo to ještě před volbami prezidenta. Následně při začátku voleb a tomto zjištění, jsem tento server pojmenoval "Generál", v praxi "General". Je to *asi* počítač od PREZIDENTA, Generála Petra Pavla, ale jestli že ne, tak je to "general", čili obecný server. Krásné to jméno!
+K tomuto "serveru" se váže zajímavý příběh. Je to starý počítač z bazaru za necelých 1 100,- kč [~44€] od někoho z Prahy, konkrétně od někoho, kdo se jmenoval "Petr Pavel". Bylo to ještě před volbami prezidenta. Následně při začátku voleb a tomto zjištění, jsem tento server pojmenoval "Generál", v praxi "General". Je to *asi* počítač od PREZIDENTA, Generála Petra Pavla, ale jestli že ne, tak je to "general", čili obecný server. Krásné to jméno!
 
 Tomu není vše. V 2022 se svět stále nějak snažil vzpamatovat z covidu, a zejména my ajťáci z cen PC komponentů. Čili tenhle server není 2x tak nový. [Ne]vtipné body:
 - `Je to DDR2` [max 4GB se správným CPU)

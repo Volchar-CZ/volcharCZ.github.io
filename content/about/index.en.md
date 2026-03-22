@@ -59,7 +59,7 @@ Junior in everything and I like to learn new things!
 
 *Fastfetch taken on 24.4.2025*
 
-There’s an interesting story behind this “server”. It’s an old computer I bought at a secondhand shop for just under 1,100 CZK [44~€] from someone in Prague, specifically from someone named “Petr Pavel”. This was before the presidential election. Then, as the election began and I realized this, I named the server “Generál,” or “General”. It’s *probably* a computer from the PRESIDENT, General Petr Pavel, but if not, then it’s a “general” server as in general-purpose one. What a beautiful name!
+There’s an interesting story behind this “server”. It’s an old computer I bought at a secondhand shop for just under 1,100 CZK [~44€] from someone in Prague, specifically from someone named “Petr Pavel”. This was before the presidential election. Then, as the election began and I realized this, I named the server “Generál,” or “General”. It’s *probably* a computer from the PRESIDENT, General Petr Pavel, but if not, then it’s a “general” server as in general-purpose one. What a beautiful name!
 
 That’s not all. In 2022, the world was still somehow trying to recover from COVID, and especially us IT folks from the prices of PC components. So this server isn’t exactly brand-new. [Un]funny points:
 - `It’s DDR2` [max 4GB with the right CPU]
