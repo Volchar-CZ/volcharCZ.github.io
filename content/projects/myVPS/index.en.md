@@ -1,6 +1,6 @@
 ---
 title: "Setting up and hardening my VPS"
-date: 2025-08-25T10:00:00+02:00
+date: 2026-03-20T10:00:00+02:00
 draft: true
 toc: false
 images:

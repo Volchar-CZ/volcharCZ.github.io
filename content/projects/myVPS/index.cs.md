@@ -17,7 +17,7 @@ Tohle vidím jako příležitost ti sáhnout na reálnou správu a linuxového s
 
 Jde říct, že moji největší inspirací byla herní séria 'Welcome to the game' a MSI router, který jsem dostal od učitele na střední škole. V obou případech jsem se setkal s "časovaným vstupem". Ať už ve hře, kdy hráč se mohl připojit na jednotlivé stránky jen v určitých časech, či ten položivý router, který měl v webGUIčku možnost "od kdy do kdy" povolení portů.
 
-Zejména ten router mě zaujal. je to sakra starý MSI <dodat jméno>, který občas jde do stavu "polomrtvice" a musím ho dát do továrního nastavení. To mi pak přeteklo i do té hry, kdy vlastně ty "zloduši" nečekaj přesně až bude 15:00 a hodí tam růčo ufw allow X/Y, ale prostě tam hodili nějaké pravidlo, ať už v sítovém prvku či nějaký systemd timer.
+Zejména ten router mě zaujal. je to sakra starý MSI RG60G, který občas jde do stavu "polomrtvice" a musím ho dát do továrního nastavení. To mi pak přeteklo i do té hry, kdy vlastně ty "zloduši" nečekaj přesně až bude 15:00 a hodí tam růčo ufw allow X/Y, ale prostě tam hodili nějaké pravidlo, ať už v sítovém prvku či nějaký systemd timer.
 
 ## Výběr hostingu [bez sponzoru]
 Jsem člověk líný, který se rád zaobírá automatizací, čili jsem člověk extra líný.
@@ -83,6 +83,9 @@ Jedná se o automatické stahování a upgradedování, zejména bezpečnosntíc
 apt install unattended-upgrades -y
 
 ```
+![1unattended-upgrades](img/1unattended-upgrades.png)
+
+
 
 Následně jsem to přes dpkg-reconfigure nastavil, aby to běhalo automaticky.
 
@@ -94,8 +97,12 @@ Z mého průzkumu jsem měl pocit, že tenhle krok je zásadní. Konec konců, "
 Jako root jsem si vytvořil účet skrze příkaz:
 
 ```BASH
+
 adduser volch # samozřejmě jiné jméno ;)
+
 ```
+![2addedUser](img/2addedUser.png)
+
 
 A následně jsem mu přidělil i privilégia:
 
@@ -192,6 +199,8 @@ sudo ufw allow cokolivJinehoNez22
 
 ```
 
+
+
 Až PAK jsem 'ufw' zapl. Kdybych to udělal naopak a byl by to dedikovaný server někde na druhé straně republiky, tak bych si musel udělat velice nepříjemný výlet. Jinak bych jen musel do webové konzole.
 
 slavnostní zapnutí vypadlo asi nějak takhle:
@@ -205,6 +214,7 @@ Command may disrupt existing ssh connections. Proceed with operation (y | n)? y
 Firewall is active and enabled on system startup
 
 ```
+![3ufwSSHAllow](img/3ufwSSHAllow.png)
 
 Nebýt NetworkChuck-ova videa, tak bych tady skončil, ale on poradil něco, co jsem reálně ani nevěděl, že jde, a to vypnout odpovídání na pingy.
 
@@ -218,3 +228,9 @@ Udělal to pomocí upravení souboru '/etc/ufw/before.rules':
 # V překladu: neodpovídej na ping.
 
 ```
+
+A následný test...
+
+![4ufwConfigPing](img/4ufwConfigPing.png)
+
+Vše funguje!
