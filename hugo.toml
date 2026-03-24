@@ -270,7 +270,7 @@ favicon = false
     [[languages.en.menu.main]]
       name = "About me"
       url = "about/"
-      weight = 8
+      weight = 11
 
     [[languages.en.menu.main]]
       name = "Projects"
@@ -312,7 +312,7 @@ favicon = false
       identifier = "about"
       name = "O mně"
       url = "about/"
-      weight = 8
+      weight = 11
 
     [[languages.cs.menu.main]]
       name = "Projekty"

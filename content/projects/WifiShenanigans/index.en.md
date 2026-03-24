@@ -9,25 +9,36 @@ tags:
   - Interests
   - Shenanigans
 ---
-For anyone curious about why this website is here, let me explain.
+I was fascinated by this [video](https://www.youtube.com/watch?v=aeah3fFYlnA) from "The Thought Emporium," where they built a working 2.4GHz radio telescope that they used to scan their surroundings and create a map (graph) of signal strength versus location. So I thought, why not give it a try? 
 
-### The Motivation: A Portfolio Page
-I wanted to create a space to showcase my work. Whether it's through GitHub or hosting on a server, having a portfolio is essential for any programmer/IT guy aiming to prove their value in the industry. This platform allows me to highlight projects like this one.
+### Why?
+**Why not?**
 
-### The Purpose: Connecting with You
-This website is designed to connect with those interested in freelance opportunities or looking to hire someone skilled. It's my digital showcase of work, ready for you to explore.
+I bought a MIMO square outdoor antenna measuring 25 cm², a slightly dodgy WiFi USB adapter with two detachable antennas, 2x RP SMA cables, and finally 2x RP SMA->TNC adapters. The whole thing cost me just under **`1,700 CZK [~70€]`**. The specific parts don’t matter, which is why I don’t include links here, unlike in the blog post about the [charger](www.volchar.dev/cs/projects/lifepo4charger). The core of the entire project is a **directional antenna**.
 
-### Choosing Hugo: Why I Went This Route
-Instead of diving into the complexities of DIY web development, where one might quickly become a full-stack developer, it was more efficient to use Hugo. Hugo is user-friendly, free, and perfect for someone who prefers working on backend tasks and trying to beat Linux into obedience.
+### Directional Antenna
+There are many antennas that would be suitable for this small project. Realistically, I had two types to choose from:
 
-As for why some posts are older, life happens! From resolving monitor issues with Linux setups to juggling school, work etc. things can get rather busy. But here we are now, with the site complete... hopefully. [15.3.2026 went live!]
+  - `Sector antenna` = _Sort of like a "streetlight"_
+  
+    - This type is suitable for covering a wider area.
 
-### Why Not Webhosting?
-The decision to use Hugo over traditional web hosting was influenced by several factors:
-- **Lack of Immediate Knowledge**: I wasn't ready for the complexities involved.
-- **No Urgent Need**: At the time, there was no pressing reason to establish a formal portfolio.
-- **Freedom and Flexibility**: Using Hugo allowed me to create without the constraints of traditional web hosting.
+  - `Directional antenna` = _Sort of like a "football stadium floodlight"_
 
-Honestly. With friends in high school we were making website for someone, and that certain someone wanted the cheapest option there was. TL;DR, I don't have exactly great experience with webhosting.
+    - This type is suitable for a specific connection between two points. Typical for connecting two buildings.
 
-Because this website is more or less a digital folder of my projects with my insights, I just called the shot and used Hugo instead.
+And then there are the designs and all sorts of variables.
+
+A _directional antenna_ was suitable for this project because I actually need a narrow beam, but not so narrow that I have to measure the azimuths like a mortar. You could say I was looking for a _directional sector antenna_, and surprisingly, I found one.
+
+#### The chosen one
+
+This particular model, from some unnamed Polish manufacturer, has two TNC connectors as it supports *both 2.4 GHz polarizations*.
+According to information I found online, the vast majority of standard Wi-Fi devices use **horizontal** polarization. My antenna is marked as such. Fortunately, I don’t have to worry about it, since it has a second TNC connector for **vertical** polarization. Realistically, I could just plug in one connector and make sure I’m holding it correctly, but I don’t like to arbitrarily give up options when navigating uncharted waters. Other flat antennas were the same price, if not more expensive.
+
+### WiFi Adapter
+I didn’t expect finding a USB WiFi adapter with two detachable antennas to be such a hassle.
+
+The criteria were clear: two detachable antennas. That’s all.
+
+The main reason I didn’t cobble together a random dual-antenna WiFi USB dongle is that my soldering skills aren’t perfect, and with radio gear, it’s better if it’s done just right, otherwise you’re in for noise and low gain.
