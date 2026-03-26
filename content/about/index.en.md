@@ -10,6 +10,19 @@ Zoomer/INTJ
 
 ---
 
+## 📦 Skills & Tools
+
+- `English` - C1, I consume media in english, I do projects in english etc.
+- `Linux` – daily usage, homelabbing, experimentation on RISC64V 
+- `Docker & docker-compose` – multi-container orchestration
+    - `Rhasspy` / `Home Assistant` / `Nextcloud` – self-hosting
+- `C#`, `interest in C++/Rust`, `Bash` – coding and app glue
+- `3D modeling` – TinkerCAD / FreeCAD / Blender | Technical and creative wise
+- `Networking` – static IPs, little bit of IOS (cisco)
+- `Participation in the nationwide FEL competition` at the Czech Technical University in Prague.. and FEL isn't even my field of study, so even though I didn't win, just being there was more than enough. 
+
+Junior in everything and I like to learn new things!
+
 ## 💻 Linux Desktop
 
 - Daily driver: LMDE (Linux Mint Debian Edition)
@@ -24,19 +37,6 @@ Zoomer/INTJ
 ![Fastfetch](Fastfetch.png)
 
 *Fastfetch taken on 24.4.2025*
-
-## 📦 Skills & Tools
-
-- `English` - C1, I consume media in english, I do projects in english etc.
-- `Linux` – daily usage, homelabbing, experimentation on RISC64V 
-- `Docker & docker-compose` – multi-container orchestration
-    - `Rhasspy` / `Home Assistant` / `Nextcloud` – self-hosting
-- `C#`, `interest in C++/Rust`, `Bash` – coding and app glue
-- `3D modeling` – TinkerCAD / FreeCAD / Blender | Technical and creative wise
-- `Networking` – static IPs, little bit of IOS (cisco)
-- `Participation in the nationwide FEL competition` at the Czech Technical University in Prague.. and FEL isn't even my field of study, so even though I didn't win, just being there was more than enough. 
-
-Junior in everything and I like to learn new things!
 
 ---
 

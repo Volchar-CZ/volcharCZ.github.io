@@ -161,7 +161,7 @@ disableHugoGeneratorInject = false
   # Uncomment this if you want a portrait on your start page
   #
    [params.portrait]
-     path     = "../images/favicon-96x96.png"
+     path     = "../images/wolf_Picture.png"
      alt      = "Logo"
      maxWidth = "50px"
 
@@ -301,7 +301,7 @@ favicon = false
     homeSubtitle = "“Lidstvo vynalezlo atomovou bombu, ale žádná myš by nikdy nesestrojila past na myši.” - Albert Einstein  "
 
   [languages.cs.params.portrait]
-     path     = "../images/favicon-96x96.png"
+     path     = "../images/wolf_Picture.png"
      alt      = "Logo"
      maxWidth = "50px"
 

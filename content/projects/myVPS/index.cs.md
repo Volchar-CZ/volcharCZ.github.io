@@ -74,21 +74,6 @@ K čemu mi bude, když změnim port, když ho pak hodím na blog?
 
 ten mám na PC a mám ho i v [sekci o mě](https://www.volchar.dev/cs/about).
 
-### Unattended-upgrades
-
-Malá a jednoduchá věc. Abych pravdu řekl, skoro pořád ji zapomínám zmiňovat, že jsem ji na VPSce udělal.
-
-Jedná se o automatické stahování a upgradedování, zejména bezpečnosntích balíčků. Ty jsou pro servery které běží bez dozoru, *účelně či ne..*, dosti kritické:
-
-```BASH
-
-apt install unattended-upgrades -y
-
-```
-![1unattended-upgrades](img/1unattended-upgrades.png)
-
-Následně jsem to přes dpkg-reconfigure nastavil, aby to běhalo automaticky.
-
 ### Účet
 
 Z mého průzkumu jsem měl pocit, že tenhle krok je zásadní. Konec konců, "root privilages" je něco, co na linkedinu ve sféře cyber security a exploitů vidím často.
@@ -197,8 +182,6 @@ Po instalaci 'ufw', jsem povolil můj port pro ssh:
 sudo ufw allow cokolivJinehoNez22
 
 ```
-
-
 
 Až PAK jsem 'ufw' zapl. Kdybych to udělal naopak a byl by to dedikovaný server někde na druhé straně republiky, tak bych si musel udělat velice nepříjemný výlet. Jinak bych jen musel do webové konzole.
 

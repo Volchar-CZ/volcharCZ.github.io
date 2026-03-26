@@ -71,21 +71,6 @@ What’s the point of changing the port if I’m just going to post it on my blo
 **FOR THE PURPOSES OF THIS BLOG, I WILL USE THE "VOLCH" AS STAND IN NAME FOR THE USER ON THE VPS**
 I have that on my PC, and it’s also listed in the [About Me section](https://www.volchar.dev/cs/about).
 
-### Unattended-upgrades
-
-A small and simple thing. To tell the truth, I almost always forget to mention that I set this up on my VPS.
-It involves automatic downloading and upgrading, particularly of security packages. These are quite critical for servers running unattended, *whether intentionally or not*:
-
-```BASH
-
-apt install unattended-upgrades -y
-
-```
-![1unattended-upgrades](img/1unattended-upgrades.png)
-
-
-I then configured it via `dpkg-reconfigure` to run automatically.
-
 ### User
 
 Based on my research, I felt that this step was crucial. After all, "root privileges" is something I see frequently on LinkedIn in the fields of cybersecurity and exploits.
