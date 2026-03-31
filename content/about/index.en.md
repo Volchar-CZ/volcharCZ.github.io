@@ -10,6 +10,19 @@ Zoomer/INTJ
 
 ---
 
+## 📦 Skills & Tools
+
+- `English` - C1, I consume media in english, I do projects in english etc.
+- `Linux` – daily usage, homelabbing, experimentation on RISC64V 
+- `Docker & docker-compose` – multi-container orchestration
+    - `Rhasspy` / `Home Assistant` / `Nextcloud` – self-hosting
+- `C#`, `interest in C++/Rust`, `Bash` – coding and app glue
+- `3D modeling` – TinkerCAD / FreeCAD / Blender | Technical and creative wise
+- `Networking` – static IPs, little bit of IOS (cisco)
+- `Participation in the nationwide FEL competition` at the Czech Technical University in Prague.. and FEL isn't even my field of study, so even though I didn't win, just being there was more than enough. 
+
+Junior in everything and I like to learn new things!
+
 ## 💻 Linux Desktop
 
 - Daily driver: LMDE (Linux Mint Debian Edition)
@@ -24,19 +37,6 @@ Zoomer/INTJ
 ![Fastfetch](Fastfetch.png)
 
 *Fastfetch taken on 24.4.2025*
-
-## 📦 Skills & Tools
-
-- `English` - C1, I consume media in english, I do projects in english etc.
-- `Linux` – daily usage, homelabbing, experimentation on RISC64V 
-- `Docker & docker-compose` – multi-container orchestration
-    - `Rhasspy` / `Home Assistant` / `Nextcloud` – self-hosting
-- `C#`, `interest in C++/Rust`, `Bash` – coding and app glue
-- `3D modeling` – TinkerCAD / FreeCAD / Blender | Technical and creative wise
-- `Networking` – static IPs, little bit of IOS (cisco)
-- `Participation in the nationwide FET competition` at the Czech Technical University in Prague.. and FET isn't even my field of study, so even though I didn't win, just being there was more than enough. 
-
-Junior in everything and I like to learn new things!
 
 ---
 
@@ -59,7 +59,7 @@ Junior in everything and I like to learn new things!
 
 *Fastfetch taken on 24.4.2025*
 
-There’s an interesting story behind this “server”. It’s an old computer I bought at a secondhand shop for just under 1,100 CZK [44~€] from someone in Prague, specifically from someone named “Petr Pavel”. This was before the presidential election. Then, as the election began and I realized this, I named the server “Generál,” or “General”. It’s *probably* a computer from the PRESIDENT, General Petr Pavel, but if not, then it’s a “general” server as in general-purpose one. What a beautiful name!
+There’s an interesting story behind this “server”. It’s an old computer I bought at a secondhand shop for just under 1,100 CZK [~44€] from someone in Prague, specifically from someone named “Petr Pavel”. This was before the presidential election. Then, as the election began and I realized this, I named the server “Generál,” or “General”. It’s *probably* a computer from the PRESIDENT, General Petr Pavel, but if not, then it’s a “general” server as in general-purpose one. What a beautiful name!
 
 That’s not all. In 2022, the world was still somehow trying to recover from COVID, and especially us IT folks from the prices of PC components. So this server isn’t exactly brand-new. [Un]funny points:
 - `It’s DDR2` [max 4GB with the right CPU]

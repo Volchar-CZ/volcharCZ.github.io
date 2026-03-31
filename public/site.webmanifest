@@ -1,5 +1,5 @@
 {
-  "name": "Volchar.dev",
+  "name": "Volchar the dev",
   "short_name": "Volchar",
   "icons": [
     {
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#2f0000",
-  "background_color": "#2f0000",
+  "theme_color": "#7c0000",
+  "background_color": "#7c0000",
   "display": "standalone"
 }

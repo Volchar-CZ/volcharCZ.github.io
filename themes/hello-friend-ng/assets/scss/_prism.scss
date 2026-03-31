@@ -2,6 +2,7 @@
 https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+ada+apacheconf+bash+batch+c+csharp+cpp+coffeescript+css-extras+dart+django+dns-zone-file+docker+elixir+etlua+erlang+git+go+graphql+groovy+haml+handlebars+haskell+http+hpkp+hsts+ini+java+javadoc+javadoclike+jsdoc+js-extras+json+json5+jsonp+julia+kotlin+latex+less+lisp+lua+markup-templating+matlab+nginx+objectivec+perl+php+phpdoc+php-extras+powershell+promql+protobuf+puppet+purescript+python+r+jsx+tsx+regex+rest+ruby+rust+sass+scss+shell-session+solidity+sql+stylus+swift+toml+twig+typescript+typoscript+verilog+vhdl+vim+visual-basic+wasm+xml-doc+yaml&plugins=line-highlight+line-numbers+show-language+toolbar */
 code[class*="language-"],
 pre[class*="language-"] {
+  font-feature-settings: normal !important;
   color: #fff;
   background: 0 0;
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;

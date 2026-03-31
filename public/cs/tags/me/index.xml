@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Me on Volčar</title>
+    <link>http://localhost:1313/cs/tags/me/</link>
+    <description>Recent content in Me on Volčar</description>
+    <generator>Hugo</generator>
+    <language>cs</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/deed.cs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 17 Mar 2026 10:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/cs/tags/me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moje Github stránka</title>
+      <link>http://localhost:1313/cs/projects/welcometomypage/</link>
+      <pubDate>Tue, 17 Mar 2026 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/cs/projects/welcometomypage/</guid>
+      <description>&lt;p&gt;Pro všechny, kteří by rádi věděli, proč tato webová stránka vznikla, to rád vysvětlím.&lt;/p&gt;&#xA;&lt;h3 id=&#34;motivace-stránka-s-portfoliem&#34;&gt;Motivace: Stránka s portfoliem&lt;/h3&gt;&#xA;&lt;p&gt;Chtěl jsem vytvořit prostor, kde bych mohl prezentovat svou práci. Ať už jde o GitHub nebo hosting na serveru, mít portfolio je pro každého programátora či IT specialistu, který chce v oboru prokázat svou hodnotu, naprosto zásadní. Tato platforma mi umožňuje představit projekty, jako je tento.&lt;/p&gt;&#xA;&lt;h3 id=&#34;účel-spojení-s-vámi&#34;&gt;Účel: Spojení s vámi&lt;/h3&gt;&#xA;&lt;p&gt;Tato webová stránka je navržena tak, aby spojovala ty, kteří mají zájem o příležitosti pro freelancery, nebo hledají někoho kvalifikovaného k najmutí. Je to moje digitální vitrína prací, připravená k prozkoumání.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

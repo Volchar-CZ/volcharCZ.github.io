@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Volčar ">
+<meta name="description" content="Už dlouho jsem si hrál s myšlenkou, že bych si pořídil VPSko pro hostování serverů [mumble atp.] či rychlé počudlání něco u mě doma jsem někde pryč, ale zejména pro obcházení NATky poskytovatele internetu. Tenhle problém mě už pronásleduje od dětství, kdy jsem si chtěl vytvořit minecraft server a hrát s kamarády, ale vždy přítomný &ldquo;port fowarding&rdquo; byl kamenem úrazu jakýkoliv mých snah.
+Proč Rád vždy začínám, proč vůbec tyhle věci dělám. Tady je to jasné, hlavním cílem je de facto proxy, prostě obejít NATku. Prostě co píšu nahoře, ale to není vše.
+" />
+<meta name="keywords" content="Linux,LMDE, Linux, Interests" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/cs/projects/myvps/" />
+
+
+    <title>
+        
+            Zavedení a zpevnění zabezpečení mé VPSky :: Volčar 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/main.min.e5d398f452309f68ec65adb451cc84f98c5adc123e599ea799e17ccb9fe1365a.css" integrity="sha256-5dOY9FIwn2jsZa20UcyE&#43;Yxa3BI&#43;WZ6nmeF8y5/hNlo=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+  <meta itemprop="name" content="Zavedení a zpevnění zabezpečení mé VPSky">
+  <meta itemprop="description" content="Už dlouho jsem si hrál s myšlenkou, že bych si pořídil VPSko pro hostování serverů [mumble atp.] či rychlé počudlání něco u mě doma jsem někde pryč, ale zejména pro obcházení NATky poskytovatele internetu. Tenhle problém mě už pronásleduje od dětství, kdy jsem si chtěl vytvořit minecraft server a hrát s kamarády, ale vždy přítomný “port fowarding” byl kamenem úrazu jakýkoliv mých snah.
+Proč Rád vždy začínám, proč vůbec tyhle věci dělám. Tady je to jasné, hlavním cílem je de facto proxy, prostě obejít NATku. Prostě co píšu nahoře, ale to není vše.">
+  <meta itemprop="datePublished" content="2026-03-20T10:00:00+02:00">
+  <meta itemprop="dateModified" content="2026-03-20T10:00:00+02:00">
+  <meta itemprop="wordCount" content="1318">
+  <meta itemprop="image" content="http://localhost:1313/">
+  <meta itemprop="keywords" content="Linux,Interests">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/">
+  <meta name="twitter:title" content="Zavedení a zpevnění zabezpečení mé VPSky">
+  <meta name="twitter:description" content="Už dlouho jsem si hrál s myšlenkou, že bych si pořídil VPSko pro hostování serverů [mumble atp.] či rychlé počudlání něco u mě doma jsem někde pryč, ale zejména pro obcházení NATky poskytovatele internetu. Tenhle problém mě už pronásleduje od dětství, kdy jsem si chtěl vytvořit minecraft server a hrát s kamarády, ale vždy přítomný “port fowarding” byl kamenem úrazu jakýkoliv mých snah.
+Proč Rád vždy začínám, proč vůbec tyhle věci dělám. Tady je to jasné, hlavním cílem je de facto proxy, prostě obejít NATku. Prostě co píšu nahoře, ale to není vše.">
+
+
+
+    <meta property="og:url" content="http://localhost:1313/cs/projects/myvps/">
+  <meta property="og:site_name" content="Volčar">
+  <meta property="og:title" content="Zavedení a zpevnění zabezpečení mé VPSky">
+  <meta property="og:description" content="Už dlouho jsem si hrál s myšlenkou, že bych si pořídil VPSko pro hostování serverů [mumble atp.] či rychlé počudlání něco u mě doma jsem někde pryč, ale zejména pro obcházení NATky poskytovatele internetu. Tenhle problém mě už pronásleduje od dětství, kdy jsem si chtěl vytvořit minecraft server a hrát s kamarády, ale vždy přítomný “port fowarding” byl kamenem úrazu jakýkoliv mých snah.
+Proč Rád vždy začínám, proč vůbec tyhle věci dělám. Tady je to jasné, hlavním cílem je de facto proxy, prostě obejít NATku. Prostě co píšu nahoře, ale to není vše.">
+  <meta property="og:locale" content="cs">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2026-03-20T10:00:00+02:00">
+    <meta property="article:modified_time" content="2026-03-20T10:00:00+02:00">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Interests">
+    <meta property="og:image" content="http://localhost:1313/">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2026-03-20 10:00:00 &#43;0200 &#43;0200" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/cs" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text logo__pathname">
+                $ cd /home/volchar/</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#AD0101;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner">
+                <li><a href="/cs/projects/">Projekty</a></li>
+            
+                <li><a href="/cs/about/">O mně</a></li>
+            
+        <ul class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">cs</a>
+                <div class="dropdown-content">
+                        
+                            <a title="en" href="http://localhost:1313/projects/myvps/">en</a>
+                        
+                </div>
+            </li>
+        </ul>
+    </ul>
+</nav>
+
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            
+    <div class="content">
+        <main class="post">
+
+            <div class="post-info">
+                
+                    Dostupné také v
+                    
+                        <a href="http://localhost:1313/projects/myvps/"><span class="flag fi fi-gb"></span></a>
+                    
+                
+                </p>
+            </div>
+
+            <article>
+                <h2 class="post-title"><a href="http://localhost:1313/cs/projects/myvps/">Zavedení a zpevnění zabezpečení mé VPSky</a></h2>
+
+                
+                
+                
+
+                <div class="post-content">
+                    <p>Už dlouho jsem si hrál s myšlenkou, že bych si pořídil VPSko pro hostování serverů [mumble atp.] či rychlé počudlání něco u mě doma jsem někde pryč, ale zejména pro obcházení NATky poskytovatele internetu. Tenhle problém mě už pronásleduje od dětství, kdy jsem si chtěl vytvořit minecraft server a hrát s kamarády, ale vždy přítomný &ldquo;port fowarding&rdquo; byl kamenem úrazu jakýkoliv mých snah.</p>
+<h2 id="proč">Proč</h2>
+<p>Rád vždy začínám, proč vůbec tyhle věci dělám. Tady je to jasné, hlavním cílem je de facto proxy, prostě obejít NATku. Prostě co píšu nahoře, ale to není vše.</p>
+<p>Tohle vidím jako příležitost ti sáhnout na reálnou správu a linuxového serveru, který není schovaný hezky u mě doma ve skříni a jediné co mu hrozí je výpadek proudu. Jako Linuxový uživatel, který má rád FOSS atp., si chci osahat pravé zabezpečení linuxového serveru. Tím nemyslím jen zapnout UFW, a pak půl hodiny řešit proč se mi tam nejde sshnout. Nejednou jsem slyšel o fail2ban, či knockd a atp., a jejich princip fungování mě fascinoval a vlastně i prozradil, jak ochrana serveru dokáže zastrašit, ale i hodně naučit. To , že to jde tak lehce (v rámci homelabbingu/domácího zřízení, v profi určitě ne ;) ), jsem osobně nečekal..</p>
+<p>Jde říct, že moji největší inspirací byla herní séria &lsquo;Welcome to the game&rsquo; a MSI router, který jsem dostal od učitele na střední škole. V obou případech jsem se setkal s &ldquo;časovaným vstupem&rdquo;. Ať už ve hře, kdy hráč se mohl připojit na jednotlivé stránky jen v určitých časech, či ten položivý router, který měl v webGUIčku možnost &ldquo;od kdy do kdy&rdquo; povolení portů.</p>
+<p>Zejména ten router mě zaujal. je to sakra starý MSI &lt;dodat jméno&gt;, který občas jde do stavu &ldquo;polomrtvice&rdquo; a musím ho dát do továrního nastavení. To mi pak přeteklo i do té hry, kdy vlastně ty &ldquo;zloduši&rdquo; nečekaj přesně až bude 15:00 a hodí tam růčo ufw allow X/Y, ale prostě tam hodili nějaké pravidlo, ať už v sítovém prvku či nějaký systemd timer.</p>
+<h2 id="výběr-hostingu-bez-sponzoru">Výběr hostingu [bez sponzoru]</h2>
+<p>Jsem člověk líný, který se rád zaobírá automatizací, čili jsem člověk extra líný.</p>
+<p>Šel jsem na CZ.NIC, koukl jsem se zde jestli je moje doména volná. Rovnou jsem se podíval na registrátory a vybral si toho &ldquo;nejlepšího&rdquo;. Tím jsem skončil u ZONER, čili czechia.com, čili ZONER CLOUD, dle vaší libosti idc.</p>
+<p>Koupil jsem si volchar.dev odménu na czechia.om a na ZONER CLOUD zase VPS basic. Nechápu ten mišmaš v jménech&hellip;</p>
+<h2 id="bojový-plán-operace-vps">Bojový plán operace &ldquo;VPS&rdquo;</h2>
+<p>Nebudu lhát, jsem sice člověk extra líný, ale také extra paranoidní. Takže před vůbec spuštěním VPSky jsem se podíval na internet/Youtube, jak takovou VPS pečlivě ochránit. Ze základního výcucu informací jsem si rozhodl následovně:</p>
+<ul>
+<li>
+<p>&lsquo;Co nejrychleji vytvořit ne-root-ovského uživatele ve skupině SUDO&rsquo;</p>
+<ul>
+<li>Tak, abych mohl zakázat se přihlašovat jako ROOT skrze SSH</li>
+</ul>
+</li>
+<li>
+<p>&lsquo;Vytvořit PUB a PRIV klíče pro SSH; bezheslové přihlašování per device&rsquo;</p>
+<ul>
+<li>Čili pokud se někdo chce připojit, musí mít klíč.</li>
+</ul>
+</li>
+<li>
+<p>&lsquo;Změnit porty na službách, které budu poskytovat&rsquo;</p>
+<ul>
+<li>SSH není na 22, WG není na tom haus numeru atp, ale není dogma.</li>
+</ul>
+</li>
+<li>
+<p>&lsquo;UFW bude ignorovat pingy - nejde vidět, neodpovídá, jako by nebyl&rsquo;</p>
+</li>
+<li>
+<p>&lsquo;Fail2ban, knockd, vypínat porty které teď nepoužívám&rsquo;</p>
+</li>
+<li>
+<p>&lsquo;Automatické aktualizace security-related balíčků&rsquo;</p>
+</li>
+</ul>
+<p>Tímhle stylem mám hotový bunkr, do které lze vlézt jen v případě, že máte platný klíč, jste na seznamu zvaných hostů a po nějakých pokusech se sami nezablokujete.</p>
+<h4 id="trošku-do-budoucnosti">Trošku do budoucnosti</h4>
+<hr>
+<p>Když budu pokračovat touhle metaforou, tak jiné cesty nejsou zřejmé, pokud vůbec existují. 24/7 tam je otevřený jen SSH a služby, které občas používám, zapínám před on/off scripty před a po používáním.</p>
+<hr>
+<h4 id="zpět-do-minulosti">Zpět do minulosti</h4>
+<p>Možná se to bude zdát jako přehnané, pro některé až paranoidní, ale dělám to pro ten případ, že si pak na to VPSko nevzpomenu či na něj nebudu mít čas nějak moc starat, tak aby bylo co nejlépe chránněné od samotného začátku a v &ldquo;idle&rdquo; stavu bylo de facto neprůstřelné.</p>
+<h2 id="první-připojení-na-vps">První připojení na VPS</h2>
+<p>V rámci zabezpečení, veškeré konkrétní informace (porty, názvy účtú atp.), budou začerneni.</p>
+<p>K čemu mi bude, když změnim port, když ho pak hodím na blog?</p>
+<p><strong>PRO ÚČELY TOHOTO BLOGU, BUDU POUŽÍVAT ÚČET &ldquo;VOLCH&rdquo;</strong></p>
+<p>ten mám na PC a mám ho i v <a href="https://www.volchar.dev/cs/about">sekci o mě</a>.</p>
+<h3 id="unattended-upgrades">Unattended-upgrades</h3>
+<p>Malá a jednoduchá věc. Abych pravdu řekl, skoro pořád ji zapomínám zmiňovat, že jsem ji na VPSce udělal.</p>
+<p>Jedná se o automatické stahování a upgradedování, zejména bezpečnosntích balíčků. Ty jsou pro servery které běží bez dozoru, <em>účelně či ne..</em>, dosti kritické:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>apt install unattended-upgrades -y
+</span></span></code></pre></div><p>Následně jsem to přes dpkg-reconfigure nastavil, aby to běhalo automaticky.</p>
+<h3 id="účet">Účet</h3>
+<p>Z mého průzkumu jsem měl pocit, že tenhle krok je zásadní. Konec konců, &ldquo;root privilages&rdquo; je něco, co na linkedinu ve sféře cyber security a exploitů vidím často.</p>
+<p>Jako root jsem si vytvořil účet skrze příkaz:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>adduser volch <span style="color:#75715e"># samozřejmě jiné jméno ;)</span>
+</span></span></code></pre></div><p>A následně jsem mu přidělil i privilégia:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>usermod -aG sudo volch
+</span></span></code></pre></div><p>Kde vlaječky - &lsquo;a&rsquo; &ndash; append, přidat | &lsquo;G&rsquo; &ndash; Group, skupina - přidali můj nový účet do skupiny SUDO.</p>
+<p>Po úspěšném přihlášení jsem se rozhodl vygenerovat klíč na mém PC a mohl vypnout &ldquo;plain-text-passwords&rdquo;.</p>
+<h3 id="generace-ssh-klíče">Generace SSH klíče</h3>
+<p>Generace, opět, byla jednoduchá. Klíč jsem si vygeneroval u sebe na počítači, z kterého se budu na VPS připojovat. Nastavil jsem si i passphrase:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ssh-keygen -b <span style="color:#ae81ff">4096</span>
+</span></span></code></pre></div><p>Důvod, proč ne větší haus numero je ten, že to moc na hodnotě nepřidá a má spíš negativní vliv. Taky, retrospektivně, jsem mohl použít <em>&ldquo;ed25519&rdquo;</em> místo <em>&ldquo;RSA&rdquo;</em>, který se používá u ssh-keygen defaultně.</p>
+<p>To jsem zjistil až při generování klíče pro můj notebook. V rámci bezpečnosti jsou na tom oba typy relativně stejně. Bavíme se zde spíš o konvenci a &ldquo;efektivitě&rdquo;. Pro domácí žvýkání jsou obě varianty víc než dost a dovolím si říct, že existencí vůbec nějakého klíče jsem na tom líp jak 1/3 serverů v <del>moc ne</del>profesionálním prostředí.</p>
+<p>Po generaci jsem poslal veřejný klíč na VPSko:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ssh-copy-id volch@ipMehoVPSka
+</span></span></code></pre></div><p>Pro otestování jsem se následně zkusil připojit v jiném terminál a fungovalo.</p>
+<p>To není vše, ještě jsem ale musel vynutit, aby se nemohl nikdo přihlašovat normálně přes psané heslo.</p>
+<p>To se dělá v nastavení SSH serveru.</p>
+<h3 id="zpevnění-zabezpečení-ssh">Zpevnění zabezpečení SSH</h3>
+<p>Abych toho učinil, tak jsem musel upravit config sshčka:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo vim /etc/ssh/sshd_config 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>-bash : vimm : command not found
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo apt install vim -y <span style="color:#f92672">&amp;&amp;</span> sudo vim /etc/ssh/sshd_config <span style="color:#75715e"># ups!</span>
+</span></span></code></pre></div><p>Ne, nepoužívám &lsquo;vim&rsquo;, abych měl Linuxové bodíky. Používám &lsquo;vim&rsquo;, protože &rsquo;nano&rsquo; mi přijde míň intuitivní. Hlavně jsem měl dostatek mozkové kapacity, abych si dokázal naspat do googlu &ldquo;vim tutorial&rdquo; a zjistil, že &lsquo;vim&rsquo; má sám o sobě návod.</p>
+<p>Co jsem změnil?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Port: cokolivJinehoNez22 <span style="color:#75715e"># eliminace skenování botů mého VPS</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>AddressFamily inet <span style="color:#75715e"># Ber ryze IPv4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PermitRootLogin no <span style="color:#75715e"># Můžu se přihlásit jako root: ne</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PasswordAuthentication no <span style="color:#75715e"># Žádné pasné hesla</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>:wq <span style="color:#75715e"># w - write | q - quit</span>
+</span></span></code></pre></div><p>Opět, povinné otestování nového nastavení skrze jiný terminál, a vše šlo hladce. Až na to, že jsem musel do příkazu připsat <code>-p cokolivJinehoNez22</code>&hellip; ups po druhé :D</p>
+<p>Teď, když jsem měl zalátovaný SSH, částečně &ldquo;vyplého&rdquo; roota a uživatele se SUDO privilégiama, bylo načase zalátovat samotné porty.</p>
+<h3 id="uncomplicatedfirewall">~~<em>Un</em>~~complicatedFireWall</h3>
+<p>Debian 13 nemá předem nainstalovaný &lsquo;ufw&rsquo;.. tak jako vim.. takže jsem ho musel nejdříve nainstalovat:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo apt install ufw -y
+</span></span></code></pre></div><p>Po instalaci &lsquo;ufw&rsquo;, jsem povolil můj port pro ssh:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo ufw allow cokolivJinehoNez22
+</span></span></code></pre></div><p>Až PAK jsem &lsquo;ufw&rsquo; zapl. Kdybych to udělal naopak a byl by to dedikovaný server někde na druhé straně republiky, tak bych si musel udělat velice nepříjemný výlet. Jinak bych jen musel do webové konzole.</p>
+<p>slavnostní zapnutí vypadlo asi nějak takhle:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo ufw enable
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Command may disrupt existing ssh connections. Proceed with operation <span style="color:#f92672">(</span>y | n<span style="color:#f92672">)</span>? y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Firewall is active and enabled on system startup
+</span></span></code></pre></div><p>Nebýt NetworkChuck-ova videa, tak bych tady skončil, ale on poradil něco, co jsem reálně ani nevěděl, že jde, a to vypnout odpovídání na pingy.</p>
+<p>NetworkChuck říkal, že to je nejlepší obrana proti botům. Když to neodpovídá, tak to bude z 80% mrtvý!</p>
+<p>Udělal to pomocí upravení souboru &lsquo;/etc/ufw/before.rules&rsquo;:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>-A ufw-before-input -p icmp --icmp-type echo-request -j DROP
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># V překladu: neodpovídej na ping.</span>
+</span></span></code></pre></div>
+                </div>
+            </article>
+
+            <hr />
+
+            <div class="post-info">
+                
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/cs/tags/linux/">Linux</a></span>
+        <span class="tag"><a href="http://localhost:1313/cs/tags/interests/">Interests</a></span>
+        
+    </p>
+
+                
+            </div>
+        </main>
+    </div>
+
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2026</span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/deed.cs" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span><span>Theme made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.08b680078a3cf9c69e3dd217a5aa52cfddd4a1d850f8cdff127fdd7421a71f8b2b474be69386f67819edace92273916e7230c9054f38107db9dc6730b3530ab5.js" integrity="sha512-CLaAB4o8&#43;caePdIXpapSz93UodhQ&#43;M3/En/ddCGnH4srR0vmk4b2eBntrOkic5FucjDJBU84EH253Gcws1MKtQ=="></script>
+
+
+
+
+    </body>
+</html>
