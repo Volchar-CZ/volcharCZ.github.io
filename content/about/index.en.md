@@ -1,7 +1,17 @@
----
-title: "About"
-draft: true
----
++++
+title = "About me"
+description = "what I do"
+type = "about"
+tags = [
+    "My information",
+]
+toc = false
+date = "2026-03-20T10:00:00+02:00"
+categories = []
+series = []
+[ author ]
+name = "Volchar"
++++
 Hi! I'm Volchar and I'm from Czechia 🇨🇿. 
 
 I'm fanatic into Linux and I like everything that has angry pixies running through it.
@@ -69,6 +79,7 @@ That’s not all. In 2022, the world was still somehow trying to recover from CO
 - `The youngest drive is 3 years old` (Drive A & B 30k hours, OS 61k hours)... and I use it as a NAS – 24/7,
 
 **[before upgrading to GTX1650]*
+
 ** It’s working again ;)
 
 So if this isn’t the most nerve-wracking server you’ve ever seen, then the only thing that could possibly top it is the server on the OpenBSD website.

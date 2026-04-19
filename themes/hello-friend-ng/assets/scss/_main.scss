@@ -195,7 +195,7 @@ figure {
   }
 }
 
-em, i, strong {
+i, strong {
   // Default
   color: $light-color-variant;
 
@@ -208,11 +208,12 @@ em, i, strong {
   }
 
   [data-theme=dark] & {
-    color: white;
+    color: $dark-color-accent;
+;
   }
 
   [data-theme=light] & {
-    color: black;
+    color: $light-color-accent;
   }
 }
 
@@ -290,7 +291,15 @@ pre {
 }
 
 blockquote {
-  border-left: 3px solid #3eb0ef;
+    [data-theme=dark] & {
+  border-left: 3px solid $dark-color-accent;
+  
+
+    }
+  
+    [data-theme=light] & {
+  border-left: 3px solid $light-color-accent;
+    }
   margin: 40px;
   padding: 10px 20px;
 

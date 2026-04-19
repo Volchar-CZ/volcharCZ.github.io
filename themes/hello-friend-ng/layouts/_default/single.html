@@ -2,15 +2,15 @@
     <div class="content">
         <main class="post">
 
-            <div class="post-info">
-                {{ if .IsTranslated }}
-                    {{ i18n "postAvailable" }}
-                    {{ range .Translations }}
-                        <a href="{{ .Permalink }}"><span class="flag fi fi-{{ index $.Site.Data.langFlags (.Lang) }}"></span></a>
-                    {{ end}}
-                {{ end }}
-                </p>
-            </div>
+      <div class="post-info">
+        <p>
+          {{ if .IsTranslated }} {{ i18n "postAvailable" }}
+            {{ range .Translations }}
+                <a href="{{ .Permalink }}"><span class="flag fi fi-{{ index $.Site.Data.langFlags (.Lang) }}"></span></a>
+            {{ end}}
+          {{ end }}
+        </p>
+      </div>
 
             <article>
                 <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>

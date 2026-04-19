@@ -1,7 +1,18 @@
----
-title: "O mě"
-draft: true
----
++++
+title = "O mě"
+description = "co dělám"
+type = "about"
+tags = [
+    "My information",
+]
+toc = false
+layout = "single"
+date = "2026-03-20T10:00:00+02:00"
+categories = []
+series = []
+[ author ]
+  name = "Volchar"
++++
 Zdravím. Přezdívám se Volčar a jsem z Česka 🇨🇿.
 
 Jsem fanatik do Linuxu, který se rád zabývá vším, kde proudí elektrony.
@@ -75,6 +86,7 @@ Tomu není vše. V 2022 se svět stále nějak snažil vzpamatovat z covidu, a z
 - `Nejmladšímu disku jsou 3 roky` (DiskA & B 30k H, OS 61k H).. a používám to jako NASku – 24/7,
 
 **[před upgradem na GTX1650]*
+
 ** Už žije ;)
 
 ![horrorForSome](horrorForSome.png)

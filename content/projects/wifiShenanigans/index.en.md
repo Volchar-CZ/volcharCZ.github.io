@@ -1,14 +1,19 @@
----
-title: "Raspberry Pi Zero 2W Wifi radioscope"
-date: 2026-03-12T10:00:00+02:00
-draft: true
-toc: false
-images:
-tags:
-  - Linux
-  - Interests
-  - Shenanigans
----
++++
+title = "Raspberry Pi Zero 2W wifi radioscope 1#"
+description = "the unforeseen consequences when you give me a directional antenna.."
+type = "posts"
+tags = [
+    "Interests",
+    "Linux",
+    "Shenanigans",
+]
+toc = true
+date = "2026-03-12T10:00:00+02:00"
+categories = [ "Technial" ]
+series = []
+[ author ]
+  name = "Volchar"
++++
 I was fascinated by this [video](https://www.youtube.com/watch?v=aeah3fFYlnA) from "The Thought Emporium," where they built a working 2.4GHz radio telescope that they used to scan their surroundings and create a map (graph) of signal strength versus location. So I thought, why not give it a try? 
 
 ### Why?
