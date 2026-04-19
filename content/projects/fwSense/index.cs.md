@@ -89,7 +89,7 @@ Jelikož jsem zkoušel NixOS (Na separé disku), tak mě ani nenapadlo udělat b
 
 Po aktualizaci a výslovné změny driveru ve prospěch 'amdgpu' počítač celkem zvládal běžné projíždění internetem.
 
-FHD videa na fullscreenu ale už dávali zabrat. Osobně si myslím, že to bylo tím, že musel "rozjed" 2K monitor. Pak jsem rozlišení stáhl na FHD, ale už jsem nezkoušel žádné video. Domnívám se, že 'h264ify' by mohl asi pomoct.
+FHD videa na fullscreenu ale už dávali zabrat. Osobně si myslím, že to bylo tím, že musel "rozjet" 2K monitor. Pak jsem rozlišení stáhl na FHD, ale už jsem nezkoušel žádné video. Domnívám se, že 'h264ify' by mohl asi pomoct.
 ___
 
 #### Instalace druhého rozhraní

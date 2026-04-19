@@ -33,7 +33,7 @@ From a technical perspective:
 
 Despite these compelling arguments, I still don’t see the rational and pragmatic “why.” 
 
-Here’s the thing. The main reason I decided to set up a firewall in the first place is that I want to route a VPN from my VPS to my home server. Since I’m opening a path into my internal network, I’m also exposing myself to risks. Just how seriously I take my privacy and security was already evident in my post where I show how I [secure my VPS](../myVPS/index.cs.md). 
+Here’s the thing. The main reason I decided to set up a firewall in the first place is that I want to route a VPN from my VPS to my home server. Since I’m opening a path into my internal network, I’m also exposing myself to risks. Just how seriously I take my privacy and security was already evident in my post where I show how I [secure my VPS](../myVPS/index.en.md). 
 
 **My assumption** is that a firewall, which will orchestrate this system using **Suricata** and **Pi-hole with known threat lists**, will serve as another barrier for a potential attacker.
 
@@ -210,7 +210,7 @@ In the OPNSense GUI, DNS configuration is very intuitive... or rather, not at al
 
 I thought that, since DNS is usually set via the DHCP server, there would be a setting somewhere to add a list of DNS resolvers. Unfortunately, in OPNSense, it’s set under '*System->Settings->General*'. How intuitive!
 
-First, I set up Pi-hole there. Then, in case of an outage, for example: if I’m working on [General](../../about/index.cs.md#server-generál), I added Cloudflare and Google DNS for redundancy.
+First, I set up Pi-hole there. Then, in case of an outage, for example: if I’m working on [General](../../about/index.en.md#server-generál), I added Cloudflare and Google DNS for redundancy.
 
 And it works great
 ![OPNSense on Pi-hole](img/OPNSensePiHole.png)

@@ -19,7 +19,7 @@ I was fascinated by this [video](https://www.youtube.com/watch?v=aeah3fFYlnA) fr
 ### Why?
 **Why not?**
 
-I bought a MIMO square outdoor antenna measuring 25 cm², a slightly dodgy WiFi USB adapter with two detachable antennas, 2x RP SMA cables, and finally 2x RP SMA->TNC adapters. The whole thing cost me just under **`1,700 CZK [~70€]`**. The specific parts don’t matter, which is why I don’t include links here, unlike in the blog post about the [charger](www.volchar.dev/cs/projects/lifepo4charger). The core of the entire project is a **directional antenna**.
+I bought a MIMO square outdoor antenna measuring 25 cm², a slightly dodgy WiFi USB adapter with two detachable antennas, 2x RP SMA cables, and finally 2x RP SMA->TNC adapters. The whole thing cost me just under **`1,700 CZK [~70€]`**. The specific parts don’t matter, which is why I don’t include links here, unlike in the blog post about the [charger](../lifepo4Charger/index.en.md). The core of the entire project is a **directional antenna**.
 
 ### Directional Antenna
 There are many antennas that would be suitable for this small project. Realistically, I had two types to choose from:

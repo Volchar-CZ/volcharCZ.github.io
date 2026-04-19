@@ -19,7 +19,7 @@ Fascinovalo mě [video](https://www.youtube.com/watch?v=aeah3fFYlnA) od "The Tho
 ### Proč?
 **Proč ne?**
 
-Koupil jsem si MIMO čtvercovou venkovní anténu o rozměrech 25 cm², lehce pofidérní WiFi USB adaptér o dvou odnímatelných anténách, 2x rp SMA kabel a posledně 2x rp SMA->TNC adaptér. Celé mě to vyšlo na necelých **`1 700,- Kč [~70€]`**. Na konkrétních dílech nezáleží, aneb proč tu nemám linky, tak jako u blogu o [nabíječce](www.volchar.dev/cs/projects/lifepo4charger). Jádro celého projektu je **směrová anténa**.
+Koupil jsem si MIMO čtvercovou venkovní anténu o rozměrech 25 cm², lehce pofidérní WiFi USB adaptér o dvou odnímatelných anténách, 2x rp SMA kabel a posledně 2x rp SMA->TNC adaptér. Celé mě to vyšlo na necelých **`1 700,- Kč [~70€]`**. Na konkrétních dílech nezáleží, aneb proč tu nemám linky, tak jako u blogu o [nabíječce](../lifepo4Charger/index.cs.md). Jádro celého projektu je **směrová anténa**.
 
 ### Směrová anténa
 Existuje mnohé antény, které by se na tenhle malý projektík hodili. Měl jsem realisticky na výběr dva druhy:
