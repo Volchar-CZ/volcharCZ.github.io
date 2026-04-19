@@ -175,7 +175,7 @@ Opět, povinné otestování nového nastavení skrze jiný terminál, a vše š
 
 Teď, když jsem měl zalátovaný SSH, částečně "vyplého" roota a uživatele se SUDO privilégiama, bylo načase zalátovat samotné porty.
 
-### ~~*Un*~~complicatedFireWall
+### ~~Un~~complicatedFireWall
 
 Debian 13 nemá předem nainstalovaný 'ufw'.. tak jako vim.. takže jsem ho musel nejdříve nainstalovat:
 

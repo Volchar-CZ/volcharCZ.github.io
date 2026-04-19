@@ -172,7 +172,7 @@ Again, I had to test the new settings from another terminal, and everything went
 
 Now that I had patched up SSH, partially "disabled" root, and users with SUDO privileges, it was time to patch the ports themselves.
 
-### ~~*Un*~~complicatedFireWall
+### ~~Un~~complicatedFireWall
 
 Debian 13 doesn't come with 'ufw' pre-installed... just like Vim... so I had to install it first:
 
