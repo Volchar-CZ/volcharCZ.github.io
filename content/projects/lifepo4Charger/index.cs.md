@@ -1,13 +1,21 @@
----
-title: "LiFePO4 DIY nabíječka"
-date: 2025-08-25T11:00:00+02:00
-draft: true
-toc: false
-images:
-tags:
-  - 3D printing
-  - Soldering
----
++++
+title = "LiFePO4 DIY nabíječka"
+description = "Příprava základu"
+type = "posts"
+tags = [
+    "3D Printing",
+    "Soldering",
+]
+toc = true
+date = "2025-08-25T11:00:00+02:00"
+categories = [
+    "Low Level",
+    "DIY",
+]
+series = []
+[ author ]
+  name = "Volchar"
++++
 Jeden z mých prvních projektů, který zahrnuje pájení a skutečný návrh výrobku! Alespoň pro mě.
 
 Proč LiFePO4? Proč ne obyčejné LiPo? Protože kdybych to zvoral, tak by došlo k nečekanému ohňostroji.
@@ -24,7 +32,7 @@ Protože chci, aby byl tento projekt připravený na budoucnost, bude tato power
 # Komponenty
 Všechno jsem koupil na laskakit.cz, českém webu pro kutily. Žádný sponzor!
  - [Držák baterie](https://www.laskakit.cz/bateriovy-box-1x18650-do-dps/)
-    - Mohl jsem si ho vytisknout na 3D tiskárně, ale stojí 20 Kč a ušetřil sjem na elektřině 
+    - Mohl jsem si ho vytisknout na 3D tiskárně, ale stojí 20 Kč a ušetřil jsem na elektřině 
  - [Modul desky USB-C PD](https://www.laskakit.cz/laskakit-usb-c-pd-ch224k-prepinac-napajeciho-napeti/)
     - Opravdu skvěle vypadající deska a navíc levná. Lze na ní nastavit vstupní napětí!
  - [Nabíječka baterií LiFePO4/LiPo (TP5000)](https://www.laskakit.cz/nabijecka-li-ion-clanku-tp5000--2a-lifepo4-lithium/)

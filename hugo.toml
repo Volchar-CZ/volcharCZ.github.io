@@ -53,7 +53,10 @@ disableHugoGeneratorInject = false
   tag      = "tags"
   category = "categories"
   series   = "series"
-
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 10
 [params]
   dateform        = "02.1.2006"
   dateformShort   = "02.1"
@@ -96,14 +99,19 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = true
+  enableSharingButtons = false
+
+  # Reading time
+  #
+  # This option enables reading time part on post info
+  #
+  enableReadingTime = true
 
   # Global language menu
   #
   # Enables the global language menu.
   #
   enableGlobalLanguageMenu = true
-
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   #

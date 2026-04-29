@@ -1,13 +1,21 @@
----
-title: "LiFePO4 DIY Charger"
-date: 2025-08-25T11:00:00+02:00
-draft: true
-toc: false
-images:
-tags:
-  - 3D printing
-  - Soldering
----
++++
+title = "LiFePO4 DIY Charger"
+description = "Preparing the foundations"
+type = "posts"
+tags = [
+    "3D Printing",
+    "Soldering",
+]
+toc = true
+date = "2025-08-25T11:00:00+02:00"
+categories = [
+    "Low Level",
+    "DIY",
+]
+series = []
+[ author ]
+  name = "Volchar"
++++
 One of my first projects that features soldering and actual product design! At least for me.
 
 Why LiFePO4? Why not simple LiPo? Because if I f-ed it up, there wouldn't be any unexpected fireworks.

@@ -1,13 +1,23 @@
----
-title: "Setting up and hardening my VPS"
-date: 2026-03-20T10:00:00+02:00
-draft: true
-toc: false
-images:
-tags:
-  - Linux
-  - Interests
----
++++
+title = "Setting up and hardening my VPS"
+description = "How I hardened my VPS"
+type = "posts"
+tags = [
+    "Linux",
+    "Interests",
+    "Sysadmin",
+]
+toc = true
+date = "2026-03-20T10:00:00+02:00"
+categories = [
+    "Homelab",
+    "VPS",
+]
+series = []
+[ author ]
+  name = "Volchar"
++++
+
 I’ve been toying with the idea of getting a VPS for hosting servers [Mumble, etc.] or quickly make/setup something up at home when I’m away, but mainly to bypass my internet provider’s NAT. This problem has been haunting me since childhood, when I wanted to set up a Minecraft server and play with friends, but the ever-present "port forwarding" was the stumbling block to all my efforts.
 
 ## Why
@@ -17,7 +27,7 @@ I see this as an opportunity to get my hands on the actual administration of a L
 
 I’d say my biggest inspirations were the “Welcome to the Game” series and the MSI router I got from a teacher in high school. In both cases, I encountered “time-limited access”. Whether in the game, where players could only connect to certain pages at specific times, or that old router, which had a "from when to when" port permission option in its web GUI.
 
-That router in particular caught my attention. It’s a damn old MSI <add name>, which sometimes goes into a "half-dead" state and I have to reset it to factory settings. Then that knowledge spilled over into that game, where I've realized that the "bad guys" don’t actually wait until exactly 3:00 PM to manually run `ufw allow X/Y`, but simply set up some rule, whether in a some network device or some systemd timer.
+That router in particular caught my attention. It’s a damn old MSI, which sometimes goes into a "half-dead" state and I have to reset it to factory settings. Then that knowledge spilled over into that game, where I've realized that the "bad guys" don’t actually wait until exactly 3:00 PM to manually run `ufw allow X/Y`, but simply set up some rule, whether in a some network device or some systemd timer.
 
 ## Choosing a Hosting Provider [No Sponsorship]
 I’m human, which means I’m lazy, and I like to tinker with automation, which means I’m extra lazy.
@@ -162,7 +172,7 @@ Again, I had to test the new settings from another terminal, and everything went
 
 Now that I had patched up SSH, partially "disabled" root, and users with SUDO privileges, it was time to patch the ports themselves.
 
-### ~~*Un*~~complicatedFireWall
+### ~~Un~~complicatedFireWall
 
 Debian 13 doesn't come with 'ufw' pre-installed... just like Vim... so I had to install it first:
 

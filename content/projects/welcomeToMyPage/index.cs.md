@@ -1,16 +1,17 @@
----
-title: "Moje Github stránka"
-date: 2026-03-17T10:00:00+02:00
-draft: true
-toc: false
-images:
-tags:
-  - Linux
-  - Me
-  - Interests
----
-Pro všechny, kteří by rádi věděli, proč tato webová stránka vznikla, to rád vysvětlím.
-
++++
+title = "Moje Github stránka"
+description = "Pro všechny, kteří by rádi věděli, proč tato webová stránka vznikla..."
+type = "posts"
+tags = [
+    "Interests",
+]
+toc = true
+date = "2026-03-17T10:00:00+02:00"
+categories = [ ]
+series = []
+[ author ]
+  name = "Volchar"
++++
 ### Motivace: Stránka s portfoliem
 Chtěl jsem vytvořit prostor, kde bych mohl prezentovat svou práci. Ať už jde o GitHub nebo hosting na serveru, mít portfolio je pro každého programátora či IT specialistu, který chce v oboru prokázat svou hodnotu, naprosto zásadní. Tato platforma mi umožňuje představit projekty, jako je tento.
 
