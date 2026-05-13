@@ -21,7 +21,7 @@ Zoomer/INTJ
 
 ---
 
-## 📦 Zkušenosti
+## Zkušenosti
 
 - `Angličtina` - C1, konzumuji média v angličitně, dělám projekty v angličtině atp.
 - `Linux` – používám deně, homelabbing, experimentování na RISC64V 
@@ -36,10 +36,10 @@ Junior ve všem a rád se přiučím něčeho nového!
 
 ---
 
-## 💻 Linux Desktop
+## Linux Desktop
 
-- OS: LMDE (Linux Mint Debian Edition)
-- Upravený dle mé libosti (PipeWire audio, Cinnamon DE, Cinnamon applets, atp.)
+- OS: NixOS
+- Upravený dle mé libosti (PipeWire audio, Flakes, Widgety, atp.)
 - Měl jsem tu čest s:
   - `ALSA`, `PipeWire`, `journalctl`, `udev`, `systemd`, `/proc/`
   - GPU troubleshooting (NVIDIA & nouveau, tyhle dva názvy asi vše vysvětlují)
@@ -47,15 +47,22 @@ Junior ve všem a rád se přiučím něčeho nového!
 
 ### PC 
 
-![Fastfetch](Fastfetch.png)
+![FastfetchNixOS](FastfetchUpdate.png)
 
-*Fastfetch z 24.4.2025*
+*Fastfetch z 29. 4. 2026*  
+
+## Předchozí
+
+![FastfetchLMDE](Fastfetch.png)
+
+*Fastfetch z 24. 4. 2025*
+*Ano, nový snímek fastfetche mi unikl o 5 dní..*  
 
 ---
 
-## ⚙️ Můj server "Generál"
+## Můj server "Generál"
 
-- 🏠 **Domácí server** (LMDE / Debian)
+- **Domácí server** (LMDE / Debian)
   - Kontejnerizované
     - `Home Assistant` – lokální Zigbee/MQTT
     - `Rhasspy` – Česky mluvící voice assistant s lokálním "wake word" & Home Assistant intents
@@ -65,6 +72,8 @@ Junior ve všem a rád se přiučím něčeho nového!
     - `Jellyfin` + `Samba` - HW akcelerovaná videotéka s NASkou
   - PipeWire + ALSA audio stack pro směrování a přepojování mikrofonu a repráků
   - Wake-on-LAN, headless management, a CLI nástroje pro vzdálenou správu
+
+*Samostatný článek teprve přijde!*
 
 ### Server "Generál"
 

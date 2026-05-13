@@ -20,7 +20,7 @@ Zoomer/INTJ
 
 ---
 
-## 📦 Skills & Tools
+## Skills & Tools
 
 - `English` - C1, I consume media in english, I do projects in english etc.
 - `Linux` – daily usage, homelabbing, experimentation on RISC64V 
@@ -33,26 +33,34 @@ Zoomer/INTJ
 
 Junior in everything and I like to learn new things!
 
-## 💻 Linux Desktop
+## Linux Desktop
 
-- Daily driver: LMDE (Linux Mint Debian Edition)
-- Themed & tuned (PipeWire audio, Cinnamon DE, Cinnamon applets, etc.)
+- Current daily driver: NixOS
+- Themed & tuned (PipeWire audio, Flakes, Widgets, etc.)
 - Had the chance to meet with:
   - `ALSA`, `PipeWire`, `journalctl`, `udev`, `systemd`, `/proc/`
   - GPU troubleshooting (NVIDIA & nouveau woes included)
   - DIY software builds & patching from source
 
 ### PC
+## Current
 
-![Fastfetch](Fastfetch.png)
+![FastfetchNixOS](FastfetchUpdate.png)
+
+*Fastfetch taken on 29.4.2026*  
+
+## Previous
+
+![FastfetchLMDE](Fastfetch.png)
 
 *Fastfetch taken on 24.4.2025*
+*Yes, I've missed the new fastfetch pic by 5 days..*  
 
 ---
 
-## ⚙️ My server "Generál"
+## My server "Generál"
 
-- 🏠 **Home Server** (LMDE / Debian)
+- **Home Server** (LMDE / Debian)
   - Dockerized:
     - `Home Assistant` – local Zigbee/MQTT
     - `Rhasspy` – Czech-speaking voice assistant w/ local wake word & intents
@@ -62,6 +70,8 @@ Junior in everything and I like to learn new things!
     - `Jellyfin` + `Samba` - HW acelerated movie collection and NAS
   - PipeWire + ALSA audio stack routing inside containers (mic/speaker passthrough)
   - Wake-on-LAN, headless management, and CLI remote tools
+
+*I'll make standalone article some day in the future!*
 
 ### Server "Generál"
 
