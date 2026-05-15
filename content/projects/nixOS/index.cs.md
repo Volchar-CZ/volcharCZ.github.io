@@ -50,6 +50,8 @@ Nemůžu tuhle sekci začít jinak, než wow.
 
 O NixOS jsem slyšel už dříve, ale až po přečtení článku o tom, že NixOS má zranitelnost, která způsobuje eskalací práv uživatele, mě donutila se podívat na tuhle distribuci blíž.
 
+/* ***Rozpracované*** */
+
 
 
 
