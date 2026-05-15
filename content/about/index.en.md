@@ -135,5 +135,6 @@ Check out my [3D models](https://www.printables.com/@Volchar_3151848)!
 Check out my [GitHub](https://github.com/Volchar-CZ)!
 
 ## Contact
-
-Contact: contact[áť]volchar[ďóť]dev
+#### Email
+English: **contact**[Áť]**volchar**[ĎóŤ]**dev**  
+Česky: **kontakt**[Áť]**volchar**[ĎóŤ]**dev**  
