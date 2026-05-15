@@ -270,7 +270,8 @@ favicon = false
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.en.params]
-    homeSubtitle  = "“Mankind invented the atomic bomb, but no mouse would ever construct a mousetrap.” - Albert Einstein"
+    homeSubtitle  = "Junior Linux enthusiast focused on system administration, automation, and solving technical problems."
+    
 
   [language.en.params.logo]
   logoHomeLink = "/en"
@@ -306,7 +307,7 @@ favicon = false
     name = "Volčar"
 
   [languages.cs.params]
-    homeSubtitle = "“Lidstvo vynalezlo atomovou bombu, ale žádná myš by nikdy nesestrojila past na myši.” - Albert Einstein  "
+    homeSubtitle = "Zaměřuji se na Linux, správu systémů, automatizaci a efektivní řešení technických problémů."
 
   [languages.cs.params.portrait]
      path     = "../images/wolf_Picture.png"

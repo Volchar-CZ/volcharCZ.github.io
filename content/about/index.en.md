@@ -14,9 +14,12 @@ name = "Volchar"
 +++
 Hi! I'm Volchar and I'm from Czechia 🇨🇿. 
 
-I'm fanatic into Linux and I like everything that has angry pixies running through it.
+I focus on system administration, automation, and solving technical problems, often tying everything together through scripting or complementing existing solutions with my own applications.  
+In my free time, I enjoy learning new things, whether they relate to my field of work or not.
 
-Zoomer/INTJ
+In short, I'm fanatic into Linux and I like everything that has angry pixies running through it.
+
+Zoomer/INTJ-T
 
 ---
 
@@ -131,7 +134,7 @@ Check out my [3D models](https://www.printables.com/@Volchar_3151848)!
 ### GitHub
 Check out my [GitHub](https://github.com/Volchar-CZ)!
 
-## Contact (?)
+## Contact
 
 I guess I’ll be the weird one now... :D
 

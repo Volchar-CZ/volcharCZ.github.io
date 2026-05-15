@@ -15,11 +15,15 @@ series = []
 +++
 Zdravím. Přezdívám se Volčar a jsem z Česka 🇨🇿.
 
-Jsem fanatik do Linuxu, který se rád zabývá vším, kde proudí elektrony.
+Zaměřuji se na Linux, správu systémů, automatizaci a řešení technických problémů, které často propojuji pomocí skriptování nebo doplňuji vlastními aplikacemi.  
+Ve volném čase se rád učím nové věci, ať už souvisejí s mou prací, nebo ne.
 
-Zoomer/INTJ
+Ve zkratce, jsem fanatik do Linuxu, který se rád zabývá vším, kde proudí elektrony.
+
+Zoomer/INTJ-T
 
 ---
+
 
 ## Zkušenosti
 
@@ -139,7 +143,7 @@ Mrkněte na moje [3D modely](https://www.printables.com/@Volchar_3151848)!
 ### Github
 Mrkněte na můj [github](https://github.com/Volchar-CZ)!
 
-## Kontakt (?)
+## Kontakt
 
 Teď se asi budu ten divný já.. :D
 
