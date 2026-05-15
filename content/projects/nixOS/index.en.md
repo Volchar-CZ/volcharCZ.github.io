@@ -1,6 +1,6 @@
 +++
-title = "My Github page"
-description = "For people who automate first and ask questions later."
+title = "NixOS PC"
+description = "For those, who automate first and then ask questions."
 type = "posts"
 tags = [
     "Interests",
