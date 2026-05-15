@@ -136,8 +136,4 @@ Check out my [GitHub](https://github.com/Volchar-CZ)!
 
 ## Contact
 
-I guess I’ll be the weird one now... :D
-
-Due to the AI boom and all sorts of data scrapers, I’m not providing any contact info **(yet)**. I’m **(for now)** just sharing this page as a link and that’s it, which means we’re already in contact if you're reading this. I plan to add some contact info here for potential collaborations/offers.
-
-If you **absolutely need to get in touch with me**... then create a Printables account, since you can’t turn off private messages there... oops. That way I’ll know you went out of your way to create an account on a website which you’ll hardly ever use for anything else, and most importantly, I don’t think bots are sophisticated enough to pull this off... 
+Contact: contact[áť]volchar[ďóť]dev

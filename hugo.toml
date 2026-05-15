@@ -276,6 +276,10 @@ favicon = false
   [language.en.params.logo]
   logoHomeLink = "/en"
 
+    [[language.en.params.social]]
+      name = "email"
+      url  = "https://www.volchar.dev/about/#contact"
+
     [[languages.en.menu.main]]
       name = "About me"
       url = "about/"
@@ -316,6 +320,10 @@ favicon = false
 
   [language.cs.params.logo]
   logoHomeLink = "/cs"
+
+    [[language.cs.params.social]]
+      name = "email"
+      url  = "https://www.volchar.dev/cs/about/#kontakt"
 
     [[languages.cs.menu.main]]
       identifier = "about"

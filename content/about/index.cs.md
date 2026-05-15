@@ -145,8 +145,4 @@ Mrkněte na můj [github](https://github.com/Volchar-CZ)!
 
 ## Kontakt
 
-Teď se asi budu ten divný já.. :D
-
-Kvůli boomu AI a všerůzných data scraperů neposkytuji **(zatím)** žádný kontakt. Tuto stránku **(zatím)** posílám jako link a papá, čili to znamená, že jsme již v kontaktu. Mám v plánu sem přidat nějaký kontkat pro potencionální spolupráci/nabídky.
-
-Pokud **vermomocně potřebujete se mnou navázat kontakt**... tak si udělejte printables účet, jelikož tam nejdou vypnout soukromé zprávy.. ups. Takhle vím, že jste se obětovali a vytvořili jste si účet někde, kde ho ani pomalu na nic jiného nepoužijete a hlavně si myslím, že BOTi nebudou až tak sofistikovaný, aby tohle dokázali... 
+Kontakt: kontakt[ZaV]volchar[TeČ]dev
