@@ -271,6 +271,7 @@ favicon = false
 
   [languages.en.params]
     homeSubtitle  = "Junior Linux enthusiast focused on system administration, automation, and solving technical problems."
+    footer.topText = ["Volchar <a href=\"https://www.volchar.dev/about/#contact\">contact</a> "]
     
 
   [language.en.params.logo]
@@ -312,6 +313,8 @@ favicon = false
 
   [languages.cs.params]
     homeSubtitle = "Zaměřuji se na Linux, správu systémů, automatizaci a efektivní řešení technických problémů."
+    footer.topText = ["Volchar <a href=\"https://www.volchar.dev/cs/about/#kontakt\">kontakt</a> "]
+
 
   [languages.cs.params.portrait]
      path     = "../images/wolf_Picture.png"
